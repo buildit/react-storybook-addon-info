@@ -281,7 +281,6 @@ var Story = function (_React$Component) {
         return '';
       }
 
-      // Figure out if this is text or an HTML object
       if (_react2.default.isValidElement(this.props.info)) {
         return _react2.default.createElement(
           'div',
